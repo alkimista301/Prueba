@@ -11,5 +11,9 @@ namespace pruebav1.Models
         [StringLength(100,ErrorMessage ="solo ingresar 100 caracteres")]
         public string Name { get; set; }
 
+        public decimal Price { get; set; }  
+
+        public string Description { get; set; }
+
     }
 }
